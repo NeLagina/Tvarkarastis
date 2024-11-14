@@ -2,7 +2,7 @@ let ClassID;
 
 
 function DisplaySelector(ClassID) {
-    readTextFile("/pamokos/"+ClassID+".json", function(text){
+    readTextFile("./pamokos/"+ClassID+".json", function(text){
         var data = JSON.parse(text);
         console.log(data);
     });
