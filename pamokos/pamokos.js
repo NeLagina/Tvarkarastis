@@ -1,4 +1,4 @@
-{
+PamokuID = {
     "1":"Lietuviu k.",
     "2":"Matematika",
     "3":"Anglu k.",
