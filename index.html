@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tvarkaračio tvarkytojas</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <body>
-        <button onclick="DisplaySelector(`5a`)">5a</button>
-    </body>
-    <script src="script.js"></script>
-    <script src="pamokos/"></script>
+
+<body>
+    <button onclick="dropdown(`Klases`)" class="dropbtn">Dropdown</button>
+    <div id="dropklases" class="dropdown-content">
+        <a>5a</a>
+        <a>5b</a>
+        <a>6a</a>
+    </div>
+    <button onclick="dropdown(`Diena)" class="dropbtn">Dropdown</button>
+    <div id="dropDiena" class="dropdown-content">
+        <a>Pirmadienis</a>
+        <a>Antradienis</a>
+        <a>Trečiadienis</a>
+        <a>Ketvirtadienis</a>
+        <a>Penktadienis</a>
+    </div>
+    <div id="Tvark-list">
+
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="pamokos/pamokos.js"></script>
+<script src="pamokos/5a.js"></script>
+
 </html>

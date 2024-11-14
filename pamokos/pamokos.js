@@ -1,3 +1,4 @@
+var PamokuID;
 PamokuID = {
     "1":"Lietuviu k.",
     "2":"Matematika",

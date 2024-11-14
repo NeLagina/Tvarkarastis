@@ -1,4 +1,5 @@
-Klase_5a = {
+var klase5a;
+klase5a = {
     "Pirmadienis": [
         {
             "1": "3",
