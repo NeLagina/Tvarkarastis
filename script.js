@@ -7,7 +7,9 @@ function DisplaySelector() {
 
 
 function dropdown(type) {
-    document.getElementById(type).classList.toggle("show");
+    let text1 = "drop"
+    let a = text1.concat("", type);
+    document.getElementById(a.toString()).classList.toggle("show");
   }
   
   // Close the dropdown menu if the user clicks outside of it
